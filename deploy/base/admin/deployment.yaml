@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: admin
-          image: ghcr.io/khkim6040/demo-b-template/admin
+          image: ghcr.io/khkim6040/demo-b-claims/admin
           ports:
             - containerPort: 8081
           resources:

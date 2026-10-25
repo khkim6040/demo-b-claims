@@ -1,12 +1,12 @@
-# demo-b-template
+# demo-b-claims
 
 Insurance platform PoC, B안의 비즈니스 모노레포 템플릿. 플랫폼 코드는 GitHub Packages 아티팩트(`io.github.khkim6040.platform:*`)로 가져온다.
 
 ## 새 프로젝트 만들기
 
-1. `gh repo create khkim6040/<이름> --template khkim6040/demo-b-template --public --clone`
+1. `gh repo create khkim6040/<이름> --template khkim6040/demo-b-claims --public --clone`
 2. 패키지 치환: `io.github.khkim6040.sample` → `io.github.khkim6040.<이름>` (`apps/*/src`, `libs`)
-3. 레포 이름 치환: `demo-b-template` → `<이름>` (`settings.gradle.kts`, `deploy/`, 이 README)
+3. 레포 이름 치환: `demo-b-claims` → `<이름>` (`settings.gradle.kts`, `deploy/`, 이 README)
 4. 로컬 자격 증명(개발자당 1회): `~/.gradle/gradle.properties`에 `gpr.user`, `gpr.key`(`read:packages` 토큰)
 5. push → `ci`. 릴리스: `deploy/overlays/dev`의 `newTag` 수정 후 `git tag api-v0.1.0 && git push origin api-v0.1.0`
 

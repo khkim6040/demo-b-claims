@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/khkim6040/demo-b-template/api
+          image: ghcr.io/khkim6040/demo-b-claims/api
           ports:
             - containerPort: 8080
           resources:

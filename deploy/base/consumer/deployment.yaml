@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: consumer
-          image: ghcr.io/khkim6040/demo-b-template/consumer
+          image: ghcr.io/khkim6040/demo-b-claims/consumer
           resources:
             limits:
               cpu: "500m"

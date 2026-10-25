@@ -12,7 +12,7 @@ spec:
           restartPolicy: OnFailure
           containers:
             - name: batch
-              image: ghcr.io/khkim6040/demo-b-template/batch
+              image: ghcr.io/khkim6040/demo-b-claims/batch
               resources:
                 limits:
                   cpu: "500m"
